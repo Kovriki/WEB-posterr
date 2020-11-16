@@ -1,0 +1,133 @@
+html{
+  margin: 0;
+  padding:0;
+}
+body{
+  /* display: block; */
+  width: 1440px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: white;
+  position: relative;
+  line-height: 1;
+}
+
+.string{
+  width: 1440px;
+  height: 144px;
+  display: inline-flex;
+  margin-top: -3px;
+}
+.square {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  align-content: stretch;
+  position: relative;
+  background-color: black;
+}
+.quarter {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  align-content: stretch;
+  position: relative;
+  background-color: black;
+  border-radius: 100% 0 0 0;
+  margin-bottom: -10px;
+}
+.quarter_1 {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  position: relative;
+  background-color: black;
+  border-radius: 100% 0 0 0;
+  margin: 0;
+  padding: 0;
+  animation-name: rotate_1;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.quarter_2 {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  position: relative;
+  background-color: black;
+  border-radius: 100% 0 0 0;
+  margin: 0;
+  padding: 0;
+  animation-name: rotate_2;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+
+}
+.quarter_3 {
+  width: 144px;
+  height: 144px;
+  display: flex;
+  position: relative;
+  background-color: black;
+  border-radius: 100% 0 0 0;
+  margin: 0;
+  padding: 0;
+}
+@keyframes rotate_1 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(90deg)}
+  25%{
+    transform: rotate(90deg)}
+  45%{
+    transform: rotate(180deg)}
+  50%{
+    transform: rotate(180deg)}
+  70%{
+    transform: rotate(270deg)}
+  75%{
+    transform: rotate(270deg)}
+  95%{
+    transform: rotate(360deg);}
+  100%{
+    transform: rotate(360deg);}
+}
+@keyframes rotate_2 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(-90deg)}
+  25%{
+    transform: rotate(-90deg)}
+  45%{
+    transform: rotate(-180deg)}
+  50%{
+    transform: rotate(-180deg)}
+  70%{
+    transform: rotate(-270deg)}
+  75%{
+    transform: rotate(-270deg)}
+  95%{
+    transform: rotate(-360deg);}
+  100%{
+    transform: rotate(-360deg);}
+}
+@keyframes rotate_3 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(270deg);
+  }
+}
