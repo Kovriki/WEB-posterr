@@ -18,7 +18,7 @@ body{
   height: 144px;
   display: inline-flex;
   margin-top: -3px;
-  
+
 }
 .square {
   width: 144px;
@@ -131,4 +131,29 @@ body{
   100%{
     transform: rotate(270deg);
   }
+}
+
+
+img {
+  width: 291px;
+height: 475px;
+position: relative;
+}
+
+@keyframes text_opener {
+  0%{height: 100%};
+  100% {height: 0%};
+}
+img:hover{
+  animation: text_opener 2s infinite;
+}
+.text_space{
+  width: 288px;
+  height: 432px;
+  position: absolute;
+  bottom: -1440px;
+  background-image: url('images/zigzag.svg');
+}
+.text_space:hover{
+animation: text_opener 2s infinite;
 }
