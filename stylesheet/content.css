@@ -151,9 +151,12 @@ img:hover{
   width: 288px;
   height: 432px;
   position: absolute;
-  bottom: -1440px;
-  background-image: url('images/zigzag.svg');
+  bottom: 0;
+  background-image: url('../images/zigzag.svg');
+  background-size: cover 100% ;
 }
 .text_space:hover{
-animation: text_opener 2s infinite;
+/* animation: text_opener 2s infinite; */
+height: 0;
+transition: all 1s;
 }
