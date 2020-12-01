@@ -48,6 +48,7 @@ body{
   background-color: black;
   border-radius: 100% 0 0 0;
   margin-bottom: -10px;
+  opacity: .8;
 }
 .quarter_transparent {
   width: 144px;
@@ -58,52 +59,25 @@ body{
   /* background-color: black; */
   margin-bottom: -10px;
 }
-.quarter_1 {
-  width: 144px;
-  height: 144px;
-  display: flex;
-  position: relative;
-  background-color: black;
-  border-radius: 100% 0 0 0;
-  margin: 0;
-  padding: 0;
-  animation-name: rotate_1;
-  animation-duration: 4s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-out;
-  animation-delay: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-}
-.quarter_2 {
-  width: 144px;
-  height: 144px;
-  display: flex;
-  position: relative;
-  background-color: black;
-  border-radius: 100% 0 0 0;
-  margin: 0;
-  padding: 0;
-  animation-name: rotate_2;
-  animation-duration: 4s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-out;
-  animation-delay: 1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+/* поворот положения */
+.tr90{
+  transform: rotate(90deg);}
+.tr180{
+  transform: rotate(180deg);}
+.tr270{
+  transform: rotate(270deg);}
 
 
-}
-.quarter_3 {
-  width: 144px;
-  height: 144px;
-  display: flex;
-  position: relative;
-  background-color: black;
-  border-radius: 100% 0 0 0;
-  margin: 0;
-  padding: 0;
-}
+/* анимация поворотов */
+.r90{
+  }
+.r180{
+  }
+.r270{
+  }
+
+
+
 @keyframes rotate_1 {
   0%{
     transform: rotate(0deg);}
@@ -156,19 +130,14 @@ body{
 
 
 
-@keyframes text_opener {
-  0%{height: 100%};
-  100% {height: 0%};
-}
+
 /*
 .zigzag{
   width: 291px;
 height: 475px;
 position: relative;
 } */
-.zigzag:hover{
-  animation: text_opener 2s infinite;
-}
+
 .restangle_under_logo {
   width: 288px;
   height: 144px;
@@ -198,12 +167,34 @@ position: relative;
    width:288px;
    height:432px;
 }
-
 .zigzag_block_horizont{
   position:relative;
    display:block;
    width:431px;
    height:288px;
+   margin-top: -144px;
+   margin-left: 0;
+}
+.zigzag:hover{
+  animation: text_opener 2s infinite;
+}
+
+.zigzag_horizont:hover{
+  animation: text_opener 2s infinite;
+}
+.zigzag_block:hover{
+/* animation: text_opener 2s infinite; */
+height: 0;
+transition: all 1s;
+}
+.zigzag_block_horizont:hover{
+animation: text_opener 2s infinite;
+height: 0;
+transition: all 1s;
+}
+@keyframes text_opener {
+  0%{width:  100%};
+  100% {width: 0%};
 }
 .text_options {
   padding-left:  40px;
@@ -216,9 +207,4 @@ position: relative;
 .text_prostranstvo {
   width: 576px;
   height: 288px;
-}
-.zigzag_block:hover{
-/* animation: text_opener 2s infinite; */
-height: 0;
-transition: all 1s;
 }
