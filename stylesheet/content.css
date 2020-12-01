@@ -56,7 +56,6 @@ body{
   display: flex;
   align-content: stretch;
   position: relative;
-  /* background-color: black; */
   margin-bottom: -10px;
 }
 /* поворот положения */
@@ -128,16 +127,6 @@ body{
 }
 
 
-
-
-
-/*
-.zigzag{
-  width: 291px;
-height: 475px;
-position: relative;
-} */
-
 .restangle_under_logo {
   width: 288px;
   height: 144px;
@@ -148,8 +137,8 @@ position: relative;
 .zigzag{
   width: 288px;
   height: 432px;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: -288px;
   background-image: url('../images/zigzag.svg');
   background-size: cover 100% ;
 }
@@ -157,44 +146,30 @@ position: relative;
   height: 288px;
   width: 432px;
   position: relative;
-  /* bottom: 0; */
   background-image: url('../images/zigzag_horizont.svg');
   background-size: cover 100% ;
 }
 .zigzag_block{
-  position:relative;
+   position:relative;
    display:block;
    width:288px;
    height:432px;
 }
 .zigzag_block_horizont{
-  position:relative;
+   position:relative;
    display:block;
-   width:431px;
+   width:432px;
    height:288px;
    margin-top: -144px;
    margin-left: 0;
 }
-.zigzag:hover{
-  animation: text_opener 2s infinite;
-}
-
-.zigzag_horizont:hover{
-  animation: text_opener 2s infinite;
-}
-.zigzag_block:hover{
-/* animation: text_opener 2s infinite; */
-height: 0;
+.zigzag_block_horizont:hover .zigzag_horizont{
+width:  0;
 transition: all 1s;
 }
-.zigzag_block_horizont:hover{
-animation: text_opener 2s infinite;
-height: 0;
-transition: all 1s;
-}
-@keyframes text_opener {
-  0%{width:  100%};
-  100% {width: 0%};
+.zigzag_block:hover .zigzag {
+  height: 0;
+  transition: all 1s;
 }
 .text_options {
   padding-left:  40px;
