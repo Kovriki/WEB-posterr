@@ -22,27 +22,35 @@ body{
       background: url('../images/background.svg');
       height: 2880px;
       display: block;
-      /* opacity: 0; */
+      opacity: 0;
       }
+
 .string{
-  width: 1440px;
-  height: 144px;
+  width: 100vw;
+  height: 10vw;
   display: inline-flex;
+  position: relative;
   margin-top: -3px;
 
 }
 .square {
-  width: 144px;
-  height: 144px;
-  display: flex;
+  /* width: 144px; */
+  width: 10vw;
+  height: 10vw;
+  /* flex-basis: 10%; */
+  /* display: flex; */
+  /* flex: 1; */
+
   align-content: stretch;
   position: relative;
   background-color: black;
 }
 .quarter {
-  width: 144px;
-  height: 144px;
-  display: flex;
+  /* flex-basis: 10%; */
+  width: 10vw;
+  height: 10vw;
+  /* flex: 1; */
+  /* display: flex; */
   align-content: stretch;
   position: relative;
   background-color: black;
@@ -51,7 +59,11 @@ body{
   /* opacity: 1; */
 }
 .quarter_transparent {
-  width: 144px;
+
+  width: 10vw;
+  height: 10vw;
+  /* width: 144px; */
+  /* flex-basis: 10%; */
   height: 144px;
   display: flex;
   align-content: stretch;
@@ -126,28 +138,43 @@ body{
   }
 }
 
+.logo {
+  width: 20vw;
+  height: 10vw;
+  background-image: url('../images/logo.svg');
+}
 
 .restangle_under_logo {
-  width: 288px;
-  height: 144px;
+  width: 20vw;
+  height: 10vw;
   position: relative;
-  display: block;
+  flex: 1;
+
+  /* display: block; */
   background-color: black;
 }
 .zigzag{
-  width: 288px;
-  height: 432px;
+  width: 20vw;
+  height: 30vw;
   position: relative;
-  margin-top: -288px;
+  margin-top: -20vw;
   background-image: url('../images/zigzag.svg');
   background-size: cover 100% ;
+  transition: all 4s;
+  transition-timing-function: linear;
+  transition-delay: 1s
+
 }
 .zigzag_horizont {
-  height: 288px;
-  width: 432px;
+  width: 30vw;
+  height: 20vw;
   position: relative;
   background-image: url('../images/zigzag_horizont.svg');
   background-size: cover 100% ;
+  transition: all 4s;
+  transition-timing-function: linear;
+  transition-delay: 1s
+
 }
 .zigzag_block{
    position:relative;
