@@ -22,7 +22,7 @@ body{
       background: url('../images/background.svg');
       height: 2880px;
       display: block;
-      opacity: .2;
+      opacity: 0;
       }
 .string{
   width: 1440px;
@@ -48,7 +48,7 @@ body{
   background-color: black;
   border-radius: 100% 0 0 0;
   margin-bottom: -10px;
-  opacity: .8;
+  opacity: 1;
 }
 .quarter_transparent {
   width: 144px;
