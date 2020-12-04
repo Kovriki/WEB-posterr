@@ -24,7 +24,10 @@ body{
       display: block;
       opacity: 0;
       }
-
+.btn {
+  width: 10vw;
+  height: 10vw;
+}
 .string{
   width: 100vw;
   height: 10vw;
