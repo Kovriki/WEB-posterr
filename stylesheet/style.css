@@ -1,4 +1,21 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+@font-face {
+  name:"RFDewiExtended-Black.ttf" 
+RFDewiExtended-BlackItalic.ttf
+RFDewiExtended-Bold.ttf
+RFDewiExtended-BoldItalic.ttf
+RFDewiExtended-Italic.ttf
+RFDewiExtended-Light.ttf
+RFDewiExtended-LightItalic.ttf
+RFDewiExtended-Regular.ttf
+RFDewiExtended-Semibold.ttf
+RFDewiExtended-SemiboldItalic.ttf
+RFDewiExtended-Thin.ttf
+RFDewiExtended-ThinItalic.ttf
+RFDewiExtended-Ultrabold.ttf
+RFDewiExtended-UltraboldItalic.ttf
+RFDewiExtended-Ultralight.ttf
+RFDewiExtended-UltralightItalic.ttf"
+}
 @import "content.css";
 @import "responsive.css";
