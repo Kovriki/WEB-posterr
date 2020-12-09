@@ -243,3 +243,7 @@ transition: all 1s;
   /* position: inherit; */
   /* margin-top: -3px; */
 }
+.logo_options {
+  width: 15vw;
+  height: 10vw;
+}
