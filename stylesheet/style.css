@@ -1,22 +1,4 @@
 @import "reset.css";
-/* @font-face {
-  font-family: "RFDewiExtended-Black.ttf"
-RFDewiExtended-BlackItalic.ttf
-RFDewiExtended-Bold.ttf
-RFDewiExtended-BoldItalic.ttf
-RFDewiExtended-Italic.ttf
-RFDewiExtended-Light.ttf
-RFDewiExtended-LightItalic.ttf
-RFDewiExtended-Regular.ttf
-RFDewiExtended-Semibold.ttf
-RFDewiExtended-SemiboldItalic.ttf
-RFDewiExtended-Thin.ttf
-RFDewiExtended-ThinItalic.ttf
-RFDewiExtended-Ultrabold.ttf
-RFDewiExtended-UltraboldItalic.ttf
-RFDewiExtended-Ultralight.ttf
-RFDewiExtended-UltralightItalic.ttf"
-src: url(font/);
-} */
+
 @import "content.css";
 @import "responsive.css";
