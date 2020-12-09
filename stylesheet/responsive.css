@@ -1,17 +1,27 @@
 @media only screen and (min-device-width: 1680px) and (max-device-width: 1920px) {
   /* MacBook Pro 2020*/
+  .footer{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
   /* MacBook Pro 2020*/
+  .footer_4 .footer_5{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1440px) {
   /* MacBook Pro 2020*/
+  .footer_4 .footer_5{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1366px) {
   /* Macbook Air 11.6" */
+
   .string {
     width: 100%;
   }
@@ -30,6 +40,7 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   /* MacBook Pro 13" старый */
+
   /* ////////////// */
 }
 
@@ -75,6 +86,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone X Portrait */
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
@@ -89,10 +101,16 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* iPhone SE */
+  .footer_2{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone SE Portrait */
+  .footer_2{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
