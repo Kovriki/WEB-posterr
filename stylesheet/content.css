@@ -4,12 +4,14 @@ html{
 }
 body{
   /* display: block; */
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100vw;
   height: auto;
   margin: 0;
   padding: 0;
   background: white;
   position: relative;
+  /* display: inline-flex; */
   line-height: 1;
 }
 
@@ -212,4 +214,19 @@ transition: all 1s;
 .text_prostranstvo {
   width: 576px;
   height: 288px;
+}
+.footer{
+  width: 100vw;
+  height: 10vw;
+  position: relative;
+  /* display: inline-flex; */
+  /* position: relative; */
+}
+.footer_1 .footer_2 .footer_3 .footer_4 .footer_5{
+  width: 100vw;
+  height: 10vw;
+  position: absolute;м 
+  /* display: inline-flex; */
+  /* position: inherit; */
+  /* margin-top: -3px; */
 }
