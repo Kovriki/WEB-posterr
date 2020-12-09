@@ -164,7 +164,7 @@ body{
   position: relative;
   margin-top: -20vw;
   background-image: url('../images/zigzag.svg');
-  background-size: cover 100% ;
+  background-size: auto 100% ;
   transition: all 4s;
   transition-timing-function: linear;
   transition-delay: 1s
@@ -174,8 +174,9 @@ body{
   width: 30vw;
   height: 20vw;
   position: relative;
-  /* background-image: url('../images/zigzag_horizont.svg'); */
-  background-size: cover 100% ;
+  margin-top: -10vw;
+  background: url('../images/zigzag_horizont.svg');
+  background-size: auto 100% ;
   transition: all 4s;
   transition-timing-function: linear;
   transition-delay: 1s
@@ -186,8 +187,9 @@ body{
 .zigzag_block{
    position:relative;
    display:block;
-   width:30vw;
-   height:20vw;
+   width:20vw;
+   height:30vw;
+
    /* width:288px;
    height:432px; */
 }
@@ -198,7 +200,8 @@ body{
    height:20vw;
    /* width:432px;
    height:288px; */
-   margin-top: -144px;
+   /* margin-top: -144px; */
+   margin-top: -10%
    margin-left: 0;
 }
 .zigzag_block_horizont:hover .zigzag_horizont{
