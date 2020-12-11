@@ -13,3 +13,272 @@
     width: 25vw;
     height: 25vw;}
 }
+
+
+Код с процентами///
+
+html{
+  margin: 0;
+  padding:0;
+}
+@font-face {
+ font-family: "RF Dewi Extended";
+ src: url("../font/RFDewiExtended-Semibold.ttf") format("ttf");
+};
+body{
+  /* display: block; */
+  /* width: 1440px; */
+  width: 1440px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: white;
+  position: relative;
+  /* display: inline-flex; */
+  line-height: 1;
+}
+
+      body::before{
+      content: "";
+      position: absolute;
+      left:0;
+      top: 0;
+      right: 0;
+      background: url('../images/background.svg');
+      height: 2880px;
+      display: block;
+      opacity: 0;
+      }
+p {
+  color: black;
+  width: 30%;
+  height: 20%;
+  font-family: "RF Dewi Extended" sans-serif;
+}
+#layer1, #layer2{
+  position: flex;
+}
+#layer1 {z-index:1;}
+#layer2 {z-index:2}
+.btn {
+  width: 10%;
+  height: 10%;
+}
+.string{
+  width: 100%;
+  height: 10%;
+  display: inline-flex;
+  position: relative;
+  margin-top: -3px;
+
+}
+.square {
+  /* width: 144px; */
+  width: 10%;
+  height: 10%;
+  /* flex-basis: 10%; */
+  /* display: flex; */
+  /* flex: 1; */
+
+  align-content: stretch;
+  position: relative;
+  background-color: black;
+}
+.quarter {
+  /* flex-basis: 10%; */
+  width: 10%;
+  height: 10%;
+  /* flex: 1; */
+  /* display: flex; */
+  align-content: stretch;
+  position: relative;
+  background-color: black;
+  border-radius: 100% 0 0 0;
+  margin-bottom: -10px;
+  /* opacity: 1; */
+}
+.quarter_transparent {
+
+  width: 10%;
+  height: 10%;
+  /* width: 144px; */
+  /* flex-basis: 10%; */
+  height: 144px;
+  display: flex;
+  align-content: stretch;
+  position: relative;
+  margin-bottom: -10px;
+}
+/* поворот положения */
+.tr90{
+  transform: rotate(90deg);}
+.tr180{
+  transform: rotate(180deg);}
+.tr270{
+  transform: rotate(270deg);}
+
+
+/* анимация поворотов */
+.r90{
+  }
+.r180{
+  }
+.r270{
+  }
+
+
+
+@keyframes rotate_1 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(90deg)}
+  25%{
+    transform: rotate(90deg)}
+  45%{
+    transform: rotate(180deg)}
+  50%{
+    transform: rotate(180deg)}
+  70%{
+    transform: rotate(270deg)}
+  75%{
+    transform: rotate(270deg)}
+  95%{
+    transform: rotate(360deg);}
+  100%{
+    transform: rotate(360deg);}
+}
+@keyframes rotate_2 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(-90deg)}
+  25%{
+    transform: rotate(-90deg)}
+  45%{
+    transform: rotate(-180deg)}
+  50%{
+    transform: rotate(-180deg)}
+  70%{
+    transform: rotate(-270deg)}
+  75%{
+    transform: rotate(-270deg)}
+  95%{
+    transform: rotate(-360deg);}
+  100%{
+    transform: rotate(-360deg);}
+}
+@keyframes rotate_3 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(270deg);
+  }
+}
+
+.logo {
+  width: 20%;
+  height: 10%;
+  background-image: url('../images/logo.svg');
+}
+
+.restangle_under_logo {
+  width: 20%;
+  height: 10%;
+  position: relative;
+  flex: 1;
+
+  /* display: block; */
+  background-color: black;
+}
+.zigzag{
+  width: 20%;
+  height: 30%;
+  position: relative;
+  margin-top: -20%;
+  background-image: url('../images/zigzag.svg');
+  background-size: auto 100% ;
+  transition: all 4s;
+  transition-timing-function: linear;
+  transition-delay: 1s
+
+}
+.zigzag_horizont {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  /* margin-top: -10vw; */
+  background: url('../images/zigzag_horizont.svg');
+  background-size: auto 100% ;
+  transition: all 4s;
+  transition-timing-function: linear;
+  transition-delay: 1s
+}
+.img_zigzag_horizont{
+  width: 30%;
+}
+.zigzag_block{
+   position:relative;
+   display:block;
+   width:20%;
+   height:30%;
+
+   /* width:288px;
+   height:432px; */
+}
+.zigzag_block_horizont{
+   position:relative;
+   display:block;
+   width:30%;
+   height:20%;
+
+   margin-top: -10%;
+   margin-left: 0;
+}
+.zigzag_block_horizont:hover .zigzag_horizont{
+width:  0;
+transition: all 1s;
+}
+.zigzag_block:hover .zigzag {
+  height: 0;
+  transition: all 1s;
+}
+.text_options {
+  padding-left:  40px;
+  padding-top:  50px;
+}
+.musei {
+  width: 30%;
+  height: 2%;
+  padding-left:  30px;
+  padding-top: 25px;
+  /* position: absolute; */
+  /* align-content: flex-start; */
+}
+.text_prostranstvo {
+  padding-top: 5vw;
+  width: 40%;
+  height: 20%;
+  /* width: 576px;
+  height: 288px; */
+}
+.footer{
+  width: 100%;
+  height: 10%;
+  position: relative;
+  /* display: inline-flex; */
+  /* position: relative; */
+}
+.footer_1 .footer_2 .footer_3 .footer_4 .footer_5{
+  width: 100%;
+  height: 10%;
+  position: absolute;м
+  /* display: inline-flex; */
+  /* position: inherit; */
+  /* margin-top: -3px; */
+}
+.logo_options {
+  width: 15%;
+  height: 10%;
+}
