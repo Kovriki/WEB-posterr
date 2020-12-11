@@ -1,4 +1,6 @@
 @font-face {
-font-family: "RFDewiExtended";
+font-family: "RFDewiExtended-Semibold";
 src: url("../font/RFDewiExtended-Semibold.ttf") format("ttf");
+font-style: normal;
+font-weight: normal;
 };
