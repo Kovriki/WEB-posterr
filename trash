@@ -15,6 +15,35 @@
 }
 
 
+
+боди_____
+
+body{
+  /* display: block; */
+  /* width: 1440px; */
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: white;
+  position: relative;
+  /* display: inline-flex; */
+  line-height: 1;
+}
+
+      body::before{
+      content: "";
+      position: absolute;
+      left:0;
+      top: 0;
+      right: 0;
+      background: url('../images/background.svg');
+      height: 2880px;
+      display: block;
+      opacity: 0;
+      }
+
+
 Код с процентами///
 
 html{
