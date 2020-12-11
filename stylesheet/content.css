@@ -14,8 +14,8 @@ p {
   height: 30vw;
   margin-top: -20vw;
   font-family: "RFDewiExtended-Semibold" sans-serif;
-  transition: all 4s;
-    opacity: 0%;
+  /* transition: all 4s; */
+    opacity: 0;
 }
 .infor_h{
   font-size: 29px;
@@ -23,8 +23,8 @@ p {
   width: 30vw;
   height: 20vw;
   font-family: "RFDewiExtended-Semibold" sans-serif;
-  transition: all 4s;
-    opacity: 0%;
+  /* transition: all 4s; */
+    opacity: 0;
 }
 #layer1, #layer2{
   position: flex;
@@ -208,11 +208,11 @@ transition: all 1s;
   transition: all 1s;
 }
 .zigzag_block:hover .infor {
-  opacity: 100%;
+  opacity: 1;
   transition: all 2s;
 }
 .zigzag_block_horizont:hover .info_h {
-  opacity: 100%;
+  opacity: 1;
   transition: all 2s;
 }
 
