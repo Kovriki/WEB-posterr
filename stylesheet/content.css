@@ -31,11 +31,33 @@ body{
       opacity: 0;
       }
 p {
+
+}
+.infor{
+  color: black;
+  width: 20vw;
+  height: 30vw;
+  font-family: "RF Dewi Extended" sans-serif;
+  /* opacity: 0%; */
+  transition: all 4s;
+    opacity: 0%;
+}
+.infor_h{
   color: black;
   width: 30vw;
   height: 20vw;
   font-family: "RF Dewi Extended" sans-serif;
+  /* opacity: 0%; */
+  transition: all 4s;
+    opacity: 0%;
 }
+#layer1, #layer2{
+  position: flex;
+}
+#layer1 {z-index:1;}
+#layer2 {z-index:2}
+
+
 .btn {
   width: 10vw;
   height: 10vw;
@@ -172,46 +194,37 @@ p {
   width: 20vw;
   height: 30vw;
   position: relative;
-  margin-top: -20vw;
+  bottom: 20vw;
   background-image: url('../images/zigzag.svg');
   background-size: auto 100% ;
   transition: all 4s;
   transition-timing-function: linear;
   transition-delay: 1s
-
-}
-.zigzag_horizont {
-  width: 30vw;
-  height: 20vw;
-  position: relative;
-  margin-top: -10vw;
-  background: url('../images/zigzag_horizont.svg');
-  background-size: auto 100% ;
-  transition: all 4s;
-  transition-timing-function: linear;
-  transition-delay: 1s
-}
-.img_zigzag_horizont{
-  width: 30vw;
 }
 .zigzag_block{
    position:relative;
    display:block;
    width:20vw;
    height:30vw;
-
-   /* width:288px;
-   height:432px; */
+}
+.zigzag_horizont {
+  width: 30vw;
+  height: 20vw;
+  position: relative;
+  /* margin-top: -10vw; */
+  background: url('../images/zigzag_horizont.svg');
+  background-size: auto 100% ;
+  background-repeat: no-repeat;
+  transition: all 4s;
+  transition-timing-function: linear;
+  transition-delay: 1s
 }
 .zigzag_block_horizont{
    position:relative;
    display:block;
    width:30vw;
    height:20vw;
-   /* width:432px;
-   height:288px; */
-   /* margin-top: -144px; */
-   margin-top: -10%
+   margin-top: -10%;
    margin-left: 0;
 }
 .zigzag_block_horizont:hover .zigzag_horizont{
@@ -222,6 +235,16 @@ transition: all 1s;
   height: 0;
   transition: all 1s;
 }
+.zigzag:hover .infor {
+  opacity: 100%;
+  transition: all 2s;
+}
+.zigzag_horizont:hover .info_h {
+  opacity: 100%;
+  transition: all 2s;
+}
+
+
 .text_options {
   padding-left:  40px;
   padding-top:  50px;
