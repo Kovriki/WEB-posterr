@@ -14,7 +14,7 @@
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1440px) {
   /* MacBook Pro 2020*/
-  .footer_4 .footer_5{
+  .footer_4, .footer_5{
     display: none;
   }
 }
