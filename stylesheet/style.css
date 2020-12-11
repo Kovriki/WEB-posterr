@@ -1,4 +1,7 @@
 @import "reset.css";
-
+@font-face {
+font-family: "RFDewiExtended";
+src: url("../font/RFDewiExtended-Semibold.ttf") format("ttf");
+};
 @import "content.css";
 @import "responsive.css";
