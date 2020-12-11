@@ -195,8 +195,8 @@ p {
   height: 30vw;
   position: relative;
   bottom: 20vw;
-  background-image: url('../images/zigzag.svg');
-  background-size: auto 100% ;
+  background: url('../images/zigzag.svg') no-repeat;
+  background-size: 100% ;
   transition: all 4s;
   transition-timing-function: linear;
   transition-delay: 1s
@@ -211,7 +211,6 @@ p {
   width: 30vw;
   height: 20vw;
   position: relative;
-  /* margin-top: -10vw; */
   background: url('../images/zigzag_horizont.svg');
   background-size: auto 100% ;
   background-repeat: no-repeat;
@@ -224,8 +223,6 @@ p {
    display:block;
    width:30vw;
    height:20vw;
-   margin-top: -10%;
-   margin-left: 0;
 }
 .zigzag_block_horizont:hover .zigzag_horizont{
 width:  0;
@@ -235,11 +232,11 @@ transition: all 1s;
   height: 0;
   transition: all 1s;
 }
-.zigzag:hover .infor {
+.zigzag_block:hover .infor {
   opacity: 100%;
   transition: all 2s;
 }
-.zigzag_horizont:hover .info_h {
+.zigzag_block_horizont:hover .info_h {
   opacity: 100%;
   transition: all 2s;
 }
@@ -266,19 +263,32 @@ transition: all 1s;
 }
 .footer{
   width: 100vw;
-  height: 10vw;
+  height: 20vw;
   position: relative;
-  /* display: inline-flex; */
+  display: inline-flex;
   /* position: relative; */
 }
-.footer_1 .footer_2 .footer_3 .footer_4 .footer_5{
+.footer_1{
   width: 100vw;
-  height: 10vw;
-  position: absolute;м
-  /* display: inline-flex; */
-  /* position: inherit; */
-  /* margin-top: -3px; */
+  display: inline-flex;
 }
+.footer_2{
+  width: 100vw;
+  display: inline-flex;
+}
+.footer_3{
+  width: 100vw;
+  display: inline-flex;
+}
+.footer_4{
+  width: 100vw;
+  display: inline-flex;
+}
+.footer_5{
+  width: 100vw;
+  display: inline-flex;
+}
+
 .logo_options {
   width: 15vw;
   height: 10vw;
