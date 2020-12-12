@@ -21,21 +21,11 @@
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1366px) {
   /* Macbook Air 11.6" */
-
-  .string {
-    width: 100%;
+  .infor, .infor_h {
+    font-size: 11px;
+  }
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
@@ -43,14 +33,6 @@
 
   /* ////////////// */
 }
-
-
-
-
-
-
-
-
 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -124,6 +106,18 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone SE Landscape */
+  p{
+    font-size: 14px;
+  }
+  .footer_3{
+    display: none;
+  }
+  .footer_4{
+    display: none;
+  }
+  .footer_5{
+    display: none;
+  }
 }
 
 
