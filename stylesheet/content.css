@@ -4,26 +4,31 @@ html{
 }
 
 
-p {
-
+p{
+  font-size: 29px
 }
+
 .infor{
-  font-size: 29px;
+  /* font-size: 29px; */
+  padding-top: 5vw;
+  padding-left: .5vw;
   color: black;
   width: 20vw;
   height: 30vw;
   margin-top: -20vw;
   font-family: "RFDewiExtended-Semibold" sans-serif;
-  /* transition: all 4s; */
+  transition: all 4s;
     opacity: 0;
 }
 .infor_h{
-  font-size: 29px;
+  /* font-size: 29px; */
+  padding-top: 5vw;
+  padding-left: .5vw;
   color: black;
   width: 30vw;
   height: 20vw;
   font-family: "RFDewiExtended-Semibold" sans-serif;
-  /* transition: all 4s; */
+  transition: all 4s;
     opacity: 0;
 }
 #layer1, #layer2{
@@ -211,7 +216,7 @@ transition: all 1s;
   opacity: 1;
   transition: all 2s;
 }
-.zigzag_block_horizont:hover .info_h {
+.zigzag_block_horizont:hover .infor_h {
   opacity: 1;
   transition: all 2s;
 }
@@ -267,4 +272,13 @@ transition: all 1s;
 .logo_options {
   width: 15vw;
   height: 10vw;
+}
+
+
+
+
+
+
+.s1{
+
 }
