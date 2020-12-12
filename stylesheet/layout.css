@@ -1,12 +1,12 @@
 @font-face {
 font-family: "RFDewiExtended-Semibold";
-src: url("../fonts/RFDewiExtended-Semibold.ttf") format("ttf");
+src: url("../fonts/RFDewiExtended-Semibold.ttf") format("TrueType");
 font-style: normal;
 font-weight: normal;
 };
 @font-face {
 font-family: "GARAMOBC";
-src: url("../fonts/GARAMOBC.OTF") format("OTF");
+src: url("../fonts/GARAMOBC.OTF") format("OpenType");
 font-style: normal;
 font-weight: normal;
 };
