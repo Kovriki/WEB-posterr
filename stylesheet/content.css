@@ -165,8 +165,6 @@ p{
   width: 20vw;
   height: 10vw;
   position: relative;
-  flex: 1;
-
   /* display: block; */
   background-color: black;
 }
@@ -274,15 +272,13 @@ transition: all 1s;
   height: 10vw;
 }
 
-
-
+#s1{}
+#s2{}
+#s3{}
+#s4{}
+#s5{}
 
 
 /* для телефона */
-.s1{
 
-}
 /* для айпада портрета */
-.s2{
-
-}
