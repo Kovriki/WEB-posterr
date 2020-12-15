@@ -16,7 +16,7 @@ p{
   width: 20vw;
   height: 30vw;
   margin-top: -20vw;
-  font-family: "RFDewiExtended-Semibold" sans-serif;
+  font-family: "RFDewiExtended-Semibold", sans-serif;
   transition: all 4s;
     opacity: 0;
 }
@@ -27,7 +27,7 @@ p{
   color: black;
   width: 30vw;
   height: 20vw;
-  font-family: "RFDewiExtended-Semibold" sans-serif;
+  font-family: "RFDewiExtended-Semibold", sans-serif;
   transition: all 4s;
     opacity: 0;
 }
@@ -284,5 +284,5 @@ transition: all 1s;
 }
 /* для айпада портрета */
 .s2{
-  
+
 }
