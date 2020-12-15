@@ -1,7 +1,7 @@
-@media only screen and (min-device-width: 1920px)  {
+@media only screen and (min-width: 1920px)  {
   /* HD*/
 }
-@media only screen and (min-device-width: 1680px) and (max-device-width: 1920px) {
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020 15"*/
  .footer_5 {display: none;}
 }
@@ -17,20 +17,20 @@
     /* кандидат на вылет */
   }
 }
-@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   /* Macbook Air 11.6" */
-  .infor, .infor_h {
+  /* .infor, .infor_h {
     font-size: 11px;
-  }
-  .footer_4, .footer_5, #s1{display: none;}
-}
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  /* MacBook Pro 13" старый */
+  } */
   .footer_4, .footer_5, #s1 {display: none;}
-
 }
+
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1280px) { */
+  /* MacBook Pro 13" старый */
+  /* .footer_4, .footer_5, #s1 {display: none;}
+
+} */
 
 
 
