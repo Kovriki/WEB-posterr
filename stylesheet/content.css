@@ -97,13 +97,12 @@ p{
 
 
 /* анимация поворотов */
-#r1{animation: rotate_1 4s infinite;
+.r1{animation: rotate_1 4s linear infinite;
   }
-#r2{
+.r2{animation: rotate_2 4s linear infinite;
   }
-#r3{
+.r3{animation: rotate_3 8s linear infinite;
   }
-
 
 
 @keyframes rotate_1 {
@@ -148,11 +147,45 @@ p{
 }
 @keyframes rotate_3 {
   0%{
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg)}
+  6%{
+      transform: rotate(-90deg)}
+  12,75%{
+    transform: rotate(-90deg)}
+  18,5%{
+    transform: rotate(-180deg)}
+  31,5%{
+    transform: rotate(-180deg)}
+  37,5%{
+    transform: rotate(-270deg)}
+  43,75%{
+    transform: rotate(-270deg)}
+  50%{
+    transform: rotate(-360deg);}
+  56,25%{
+    transform: rotate(-360deg);}
+  72,5%{
+    transform: rotate(-270deg)}
+  78,75%{
+    transform: rotate(-270deg)}
+  81,25%{
+    transform: rotate(-180deg)}
+  87,5%{
+    transform: rotate(-180deg)}
+  93,75%{
+    transform: rotate(-90deg)}
   100%{
-    transform: rotate(270deg);
-  }
+    transform: rotate(-90deg)}
+  /* 0%{
+    transform: rotate(0deg)} */
+
+
+
+
+
+    95%{
+      transform: rotate(-360deg);}
+;}
 }
 
 .logo {
