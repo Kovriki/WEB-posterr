@@ -1,125 +1,81 @@
+@media only screen and (min-device-width: 1920px)  {
+  /* HD*/
+}
 @media only screen and (min-device-width: 1680px) and (max-device-width: 1920px) {
-  /* MacBook Pro 2020*/
-  .footer{
-    display: none;
-  }
+  /* MacBook Pro 2020 15"*/
+ .footer_5 {display: none;}
 }
 
-@media only screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
+@media only screen and (min-width: 1440px) and (max-width: 1680px) {
   /* MacBook Pro 2020*/
-  .footer_4 .footer_5{
-    display: none;
-  }
+  .footer_4, .footer_5,  #s1 {display: none;}
 }
 
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1440px) {
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
   /* MacBook Pro 2020*/
-  .footer_4, .footer_5{
-    display: none;
+  .footer_4, .footer_5,  #s1  {display: none;}
+    /* кандидат на вылет */
   }
 }
-
-@media only screen and (min-device-width: 1280px) and (max-device-width: 1366px) {
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
   /* Macbook Air 11.6" */
   .infor, .infor_h {
     font-size: 11px;
   }
-  }
+  .footer_4, .footer_5, #s1{display: none;}
 }
 
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
   /* MacBook Pro 13" старый */
+  .footer_4, .footer_5, #s1 {display: none;}
 
-  /* ////////////// */
-}
-
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Desktop */
-}
 }
 
 
 
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* iPad */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
-  .s2{
+  .footer_4, .footer_5,   #s1, #s2{
     display: none;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* iPad Landscape */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* промежуток */
+  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
 }
 
-
-
-
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
+  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 480px) and (orientation: portrait) { */
   /* iPhone X Portrait */
-
+  /* .footer_4, .footer_5,  {display: none;} */
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 480px) and (orientation: landscape) { */
   /* iPhone X Landscape */
+  /* .footer_4, .footer_5,  {display: none;} */
 }
 
 
 
-
-
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
   /* iPhone SE */
-  .footer_2{
-    display: none;
-  }
+  .footer_2, .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s4 {display: none;}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 375px) and (orientation: portrait) { */
   /* iPhone SE Portrait */
-  .footer_2{
-    display: none;
-  }
-  .footer_3{
-    display: none;
-  }
-  .footer_4{
-    display: none;
-  }
-  .footer_5{
-    display: none;
-  }
+  /* .footer_2,.footer_3, .footer_4, .footer_5,  {display: none;} */
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 375px) and (orientation: landscape) { */
   /* iPhone SE Landscape */
-  p{
-    font-size: 14px;
-  }
-  .footer_3{
-    display: none;
-  }
-  .footer_4{
-    display: none;
-  }
-  .footer_5{
-    display: none;
-  }
+  /* .footer_2,.footer_3, .footer_4, .footer_5,  {display: none;} */
 }
 
 
@@ -130,4 +86,4 @@
 
 1366x768 (MacBook Air ’11.6)
 
-1280x800 (MacBook Pro ’13)
+1280x800 (MacBook Pro ’13)*/
