@@ -22,7 +22,9 @@
   /* .infor, .infor_h {
     font-size: 11px;
   } */
-  .footer_4, .footer_5, #s1 {display: none;}
+  .guarter { width: 12,5vw}
+  p {font-size: 25px;}
+  .footer_4, .footer_5, #s1, #s2 {display: none;}
 }
 
 
@@ -36,17 +38,23 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
-  .footer_3, .footer_4, .footer_5,   #s1, #s2{display: none;}
-  .text_prostranstvo{width: 30vw;}
+  p {font-size: 18px;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
+  /* .text_prostranstvo{width: 30vw;} */
+  .guarter { width: 12,5vw}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   /* промежуток */
+  p {font-size: 14px;}
+
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
+  p {font-size: 11px;}
+
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
 }
 
