@@ -81,8 +81,14 @@
 
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
+@media only screen and (min-width: 320px) and (max-width: 375px) {
   /* iPhone SE */
+  .quarter, .quarter_transparent { width: 25vw; height: 25vw;}
+  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 100vw; height: 50vw; }
+  .zigzag_block, .zigzag, .infor { width: 50vw ; height: 100vw;}
+  p {font-size: 9px;}
+
+
   .footer_2, .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s4 {display: none;}
 }
 
