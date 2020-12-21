@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1920px)  {
   /* HD*/
+  .quarter {width: 7.14vw}
 }
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020 15"*/
@@ -11,33 +12,33 @@
   .footer_4, .footer_5,  #s1 {display: none;}
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+/* @media only screen and (min-width: 1366px) and (max-width: 1440px) { */
   /* MacBook Pro 2020*/
-  .footer_4, .footer_5,  #s1  {display: none;}
+  /* .footer_4, .footer_5,  #s1  {display: none;} */
     /* кандидат на вылет */
-  }
+  /* } */
 }
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   /* Macbook Air 11.6" */
   /* .infor, .infor_h {
     font-size: 11px;
   } */
-  .guarter { width: 12,5vw}
+  /* .guarter {width:} */
   p {font-size: 25px;}
   .footer_4, .footer_5, #s1, #s2 {display: none;}
 }
-
+}
 
 /* @media only screen and (min-width: 1024px) and (max-width: 1280px) { */
   /* MacBook Pro 13" старый */
-  /* .footer_4, .footer_5, #s1 {display: none;}
+  /* .footer_4, .footer_5, #s1 {display: none;}*/
 
-} */
 
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
+  .quarter {width: 12.5vw; height: 12.5vw}
   p {font-size: 18px;}
   .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
   /* .text_prostranstvo{width: 30vw;} */
