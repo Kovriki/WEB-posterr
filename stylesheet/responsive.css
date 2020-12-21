@@ -1,14 +1,14 @@
 @media only screen and (min-width: 1920px)  {
   /* HD*/
-  .quarter , .quarter_transparentc{width: 7.14vw; height:7.14vw;}
+  .quarter , .quarter_transparent {width: 7.14vw; height:7.14vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 21.4vw; height: 14.3vw ; }
-   .zigzag_block, .zigzag, .infor { width: 14.3vw ; height: 21.4vw; transform:rotate(90deg);}
+   .zigzag_block, .zigzag, .infor { width: 14.3vw ; height: 21.4vw;}
 }
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020 15"*/
-  .quarter , .quarter_transparentc{width: 7.14vw; height:7.14vw;}
+  .quarter , .quarter_transparent {width: 7.14vw; height:7.14vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 21.4vw; height: 14.3vw ; }
-  .zigzag_block, .zigzag, .infor { width: 14.3vw ; height: 21.4vw; transform:rotate(90deg);}
+  .zigzag_block, .zigzag, .infor { width: 14.3vw ; height: 21.4vw;}
  .footer_5 {display: none;}
 }
 
@@ -25,12 +25,14 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   /* Macbook Air 11.6" */
-  /* .infor, .infor_h {
-    font-size: 11px;
-  } */
-  /* .guarter {width:} */
+  .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
+  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 37.5vw; height: 25vw ; }
+  .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
+
   p {font-size: 25px;}
-  .footer_4, .footer_5, #s1 {display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
+
+
 }
 
 
@@ -43,7 +45,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
-  .quarter, .quarter_transparentc {width: 12.5vw; height: 12.5vw;}
+  .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
   p {font-size: 18px;}
   .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
   /* .text_prostranstvo{width: 30vw;} */
@@ -53,7 +55,7 @@
   /* промежуток */
   .quarter, .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 50vw; height: 33.3vw; }
-   .zigzag_block, .zigzag, .infor { width: 33.3vw ; height: 50vw; transform:rotate(90deg);}
+  .zigzag_block, .zigzag, .infor { width: 33.3vw ; height: 50vw;}
   p {font-size: 14px;}
 
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
@@ -61,7 +63,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
-  .quarter , .quarter_transparentc{ width: 16.6vw; height: 16.6vw;}
+  .quarter , .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   p {font-size: 11px;}
 
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
