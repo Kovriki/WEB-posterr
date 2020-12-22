@@ -28,6 +28,7 @@
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   /* Macbook Air 11.6" */
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
+
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 37.5vw; height: 25vw ; }
   .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
   .restangle_under_logo {width: 37.5vw; height: 12.5vw;}
@@ -42,6 +43,13 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
+  .string { width: 100vw; height: 12.5vw;}
+  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 37.5vw; height: 25vw ; }
+  .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
+  .restangle_under_logo {width: 37.5vw; height: 12.5vw;}
+  .text_prostranstvo {width: 37.5vw;}
+    /* .string { width: 100vw; height: 12.5vw;}
+  .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;} */
   p {font-size: 18px;}
   .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
   /* .text_prostranstvo{width: 30vw;} */
