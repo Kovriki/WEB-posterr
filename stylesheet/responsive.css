@@ -16,12 +16,12 @@
   .restangle_under_logo {width: 14.5vw; height: 7.15vw}
   .text_prostranstvo {width: 21.5vw;}
 
- .footer_5 {display: none;}
+ .footer_4, #s1, #s5  {display: none;}
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1680px) {
   /* MacBook Pro 2020*/
-  .footer_4, .footer_5,  #s1 {display: none;}
+  .footer_4, .footer_5,  #s1, #s5 {display: none;}
 }
 
 
@@ -34,7 +34,7 @@
   .restangle_under_logo {width: 37.5vw; height: 12.5vw;}
   .text_prostranstvo {width: 37.5vw;}
   p {font-size: 25px;}
-  .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2 , #s5{display: none;}
 
 
 }
@@ -51,7 +51,7 @@
     /* .string { width: 100vw; height: 12.5vw;}
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;} */
   p {font-size: 18px;}
-  .footer_3, .footer_4, .footer_5,   #s1, #s2 {display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2 , #s5{display: none;}
   /* .text_prostranstvo{width: 30vw;} */
 }
 
@@ -64,7 +64,7 @@
   .text_prostranstvo { width: 50vw;}
   p {font-size: 14px;}
 
-  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 , #s5{display: none;}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
@@ -72,11 +72,11 @@
   .quarter , .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   p {font-size: 11px;}
 
-  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 {display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s5 {display: none;}
 }
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 375px)  {
+@media only screen  and (max-device-width: 375px)  {
   /* iPhone SE */
   .quarter, .quarter_transparent { width: 25vw; height: 25vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 100vw; height: 50vw; }
@@ -84,7 +84,7 @@
   p {font-size: 9px;}
 
 
-  .footer_2, .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s4 {display: none;}
+  .footer_2, .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s4, #s5 {display: none;}
 }
 
 
