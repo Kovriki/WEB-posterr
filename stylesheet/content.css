@@ -178,21 +178,11 @@ p{
     transform: rotate(0deg)} */
 
 
-
-
-
     95%{
       transform: rotate(-360deg);}
 ;}
 }
 
-.logo_bg {
-  /* padding: 10%; */
-  width: 10vw;
-  height: 10vw;
-  background-image: url('../images/logo.svg');
-
-}
 
 .restangle_under_logo {
   width: 20vw;
