@@ -205,7 +205,8 @@ p{
 .zigzag{
   width: 20vw;
   height: 30vw;
-  position: relative;
+  position: absolute;
+  /* position: relative; */
   /* bottom: 20vw; */
   background: url('../images/zigzag.svg') no-repeat;
   background-size: 100% ;
@@ -222,7 +223,8 @@ p{
 .zigzag_horizont {
   width: 30vw;
   height: 20vw;
-  position: relative;
+  position: absolute;
+  /* position: relative; */
   background: url('../images/zigzag_horizont.svg');
   background-size: auto 100% ;
   background-repeat: no-repeat;
