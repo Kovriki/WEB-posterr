@@ -4,7 +4,7 @@
   .quarter , .quarter_transparent {width: 7.15vw; height:7.15vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h , .text_prostranstvo { width: 21.5vw; height: 14.5vw ; }
    .zigzag_block, .zigzag, .infor { width: 14.5vw ; height: 21.5vw;}
-   .restangle_under_logo {width: 14.5vw; height: 7.15vw}
+   .restangle_under_logo {width: 14.5vw; height: 7.15vw;background: black;}
    .text_prostranstvo {width: 21.5vw;}
 }
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
@@ -13,26 +13,27 @@
   .quarter , .quarter_transparent {width: 8.3vw; height:8.3vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h , .text_prostranstvo{ width: 25vw; height: 16.7vw; }
   .zigzag_block, .zigzag, .infor { width:16.7vw ; height: 25vw;}
-  .restangle_under_logo {width:  16.7vw; height: 8.3vw}
+  .restangle_under_logo {width:  16.7vw; height: 8.3vw;background: black;}
   .text_prostranstvo {width: 25vw;}
 
  .footer_4, #s1  {display: none;}
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1680px) {
+@media only screen and (min-width: 1400px) and (max-width: 1680px) {
   /* MacBook Pro 2020*/
+  .restangle_under_logo { width: 20vw; height: 10vw; position: relative; background: black;}
   .footer_4, .footer_5,  #s1, #s5 {display: none;}
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
   /* Macbook Air 11.6" */
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
   .string { width: 100vw; height:12.5vw;}
 
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h  , .text_prostranstvo{ width: 37.5vw; height: 25vw ; }
   .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
-  .restangle_under_logo {width: 25vw; height: 12.5vw;}
+  .restangle_under_logo {width: 25vw; height: 12.5vw;background: black;}
   .text_prostranstvo {width: 37.5vw;}
   p {font-size: 25px;}
   .footer_3, .footer_4, .footer_5,   #s1, #s2 , #s5{display: none;}
@@ -47,7 +48,7 @@
   .string { width: 100vw; height: 12.5vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h  , .text_prostranstvo{ width: 37.5vw; height: 25vw ; }
   .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
-  .restangle_under_logo {width: 25vw; height: 12.5vw;}
+  .restangle_under_logo {width: 25vw; height: 12.5vw; background: black;}
   .text_prostranstvo {width: 37.5vw;}
     /* .string { width: 100vw; height: 12.5vw;}
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;} */
@@ -63,7 +64,7 @@
 
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h  , .text_prostranstvo{ width: 50vw; height: 33.3vw; }
   .zigzag_block, .zigzag, .infor { width: 33.3vw ; height: 50vw;}
-  .restangle_under_logo { width: 33.2vw; height: 16.6vw;}
+  .restangle_under_logo { width: 33.2vw; height: 16.6vw;background: black;}
   .text_prostranstvo { width: 50vw;}
   p {font-size: 14px;}
 
@@ -74,7 +75,7 @@
   /* iPhone X */
   .quarter , .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   .string { width: 100vw; height:16.6vw;}
-  .restangle_under_logo { width: 33.2vw; height: 16.6vw;}
+  .restangle_under_logo { width: 33.2vw; height: 16.6vw;background: black;}
   p {font-size: 11px;}
 
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s5 {display: none;}
@@ -85,7 +86,7 @@
   /* iPhone SE */
   .quarter, .quarter_transparent{ width: 25vw; height: 25vw;}
   .string { width: 100vw; height:25vw;}
-  .restangle_under_logo { width: 50vw; height: 25vw;}
+  .restangle_under_logo { width: 50vw; height: 25vw; background: black;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 100vw; height: 50vw; }
   .zigzag_block, .zigzag, .infor { width: 50vw ; height: 100vw;}
   p {font-size: 9px;}
