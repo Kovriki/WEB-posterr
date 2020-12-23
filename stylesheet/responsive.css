@@ -74,7 +74,7 @@
   /* iPhone X */
   .quarter , .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   .string { width: 100vw; height:16.6vw;}
-
+  .restangle_under_logo { width: 33.2vw; height: 16.6vw;}
   p {font-size: 11px;}
 
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3, #s5 {display: none;}
@@ -85,7 +85,7 @@
   /* iPhone SE */
   .quarter, .quarter_transparent{ width: 25vw; height: 25vw;}
   .string { width: 100vw; height:25vw;}
-
+  .restangle_under_logo { width: 50vw; height: 25vw;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 100vw; height: 50vw; }
   .zigzag_block, .zigzag, .infor { width: 50vw ; height: 100vw;}
   p {font-size: 9px;}
