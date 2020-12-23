@@ -189,7 +189,13 @@ p{
   height: 10vw;
   position: relative;
   /* display: block; */
-  background-color: black;
+  background: black;
+
+}
+
+.logo_options {
+  width: 100%;
+  height: 100%;
 }
 
 .zigzag{
@@ -297,11 +303,6 @@ transition: all 1s;
 .footer_5{
   /* width: 100vw; */
   display: inline-flex;
-}
-
-.logo_options {
-  width: 100%;
-  height: 100%;
 }
 
 #s1{}
