@@ -6,7 +6,9 @@
    .zigzag_block, .zigzag, .infor { width: 14.5vw ; height: 21.5vw;}
    .restangle_under_logo {width: 14.5vw; height: 7.15vw;background: black;}
    .text_prostranstvo {width: 21.5vw;}
-   #s4_1{display: none;}
+   p {font-size: 25px;}
+
+   #s4_1, #s3_1{display: none;}
 
 }
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
@@ -17,14 +19,15 @@
   .zigzag_block, .zigzag, .infor { width:16.7vw ; height: 25vw;}
   .restangle_under_logo {width:  16.7vw; height: 8.3vw;background: black;}
   .text_prostranstvo {width: 25vw;}
+  p {font-size: 25px;}
 
- .footer_4, #s1,#s4_1  {display: none;}
+ .footer_4, #s1,#s3_1,#s4_1  {display: none;}
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1680px) {
   /* MacBook Pro 2020*/
   .restangle_under_logo { width: 20vw; height: 10vw; position: relative; background: black;}
-  .footer_4, .footer_5,  #s1, #s5,#s4_1 {display: none;}
+  .footer_4, .footer_5,  #s1, #s5,#s3_1,#s4_1 {display: none;}
 }
 
 
@@ -38,7 +41,7 @@
   .restangle_under_logo {width: 25vw; height: 12.5vw;background: black;}
   .text_prostranstvo {width: 37.5vw;}
   p {font-size: 25px;}
-  .footer_3, .footer_4, .footer_5,   #s1, #s2,#s4_1 , #s5{display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2,#s3_1,#s4_1 , #s5{display: none;}
 
 
 }
@@ -48,14 +51,14 @@
   /* iPad Portrait */
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;}
   .string { width: 100vw; height: 12.5vw;}
-  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h  , .text_prostranstvo{ width: 37.5vw; height: 25vw ; }
-  .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;}
+  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h  , .text_prostranstvo{ width: 37.5vw; height: 25vw ;font-size: 18px; }
+  .zigzag_block, .zigzag, .infor { width: 25vw; height: 37.5vw;font-size: 18px;}
   .restangle_under_logo {width: 25vw; height: 12.5vw; background: black;}
-  .text_prostranstvo {width: 37.5vw;}
+
     /* .string { width: 100vw; height: 12.5vw;}
   .quarter, .quarter_transparent {width: 12.5vw; height: 12.5vw;} */
-  p {font-size: 18px;}
-  .footer_3, .footer_4, .footer_5,   #s1, #s2 ,#s4_1 , #s5{display: none;}
+  .infor, .infor_h {}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2,#s4_1 , #s5{display: none;}
   /* .text_prostranstvo{width: 30vw;} */
 }
 
@@ -68,9 +71,10 @@
   .zigzag_block, .zigzag, .infor { width: 33.3vw ; height: 50vw;}
   .restangle_under_logo { width: 33.2vw; height: 16.6vw;background: black;}
   .text_prostranstvo { width: 50vw;}
-  p {font-size: 14px;}
+  p {font-size: 24px;}
+  #s3_1 {display: block;}
 
-  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3 ,#s4_1, #s5{display: none;}
+  .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3,#s3_1 ,#s4_1, #s5{display: none;}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
@@ -78,8 +82,12 @@
   .quarter , .quarter_transparent { width: 16.6vw; height: 16.6vw;}
   .string { width: 100vw; height:16.6vw;}
   .restangle_under_logo { width: 33.2vw; height: 16.6vw;background: black;}
-  p {font-size: 11px;}
+  .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 49.8vw; height: 33.2vw; }
+  .zigzag_block, .zigzag, .infor { width: 33.2vw ; height: 49.8vw;}
+  p {font-size: 25px;}
+
   .text_prostranstvo { width: 50vw; height: 30vw}
+  #s4_1,  #s3_1 {display: block;}
 
   .footer_3, .footer_4, .footer_5,   #s1, #s2, #s3,#s4_1 , #s5 {display: none;}
 }
@@ -92,7 +100,8 @@
   .restangle_under_logo { width: 50vw; height: 25vw; background: black;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 100vw; height: 70vw; }
   .zigzag_block, .zigzag, .infor { width: 70vw ; height: 100vw;}
-  p {font-size: 9px;}
+  p {font-size: 25px;}
+  .infor_h, .infor {padding-left: 5vw; padding-top: 10vw;}
   .text_prostranstvo { width: 100vw; height: 50vw}
   .shriftovih_bg, .musei_bg, .illusi_bg { padding-bottom: 1vw;}
 
