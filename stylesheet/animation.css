@@ -9,8 +9,8 @@
 /* готово */
 .r2_0_1 {animation: rotate_2_0_1 4s linear infinite}
 .r2_0_2 {animation: rotate_2_0_2 4s linear infinite}
-.r_2_270 {animation: rotate_2_270  4s linear infinite}
-.r_2_270- {animation: rotate_2_270  4s linear reverse infinite}
+
+
 .r4_0 { animation: rotate_4 8s linear alternate-reverse infinite}
 .r4_0- { animation: rotate_4 8s linear reverse infinite}
 .r4_90 { animation: rotate_4_90 8s linear alternate-reverse infinite}
@@ -18,7 +18,11 @@
 .r4_180 { animation: rotate_4_180 8s linear alternate-reverse infinite}
 .r4_180- { animation: rotate_4_180 8s linear reverse infinite}
 
+.r_2_180 {animation: rotate_2_180  4s linear infinite}
+.r_2_180- {animation: rotate_2_180  4s linear reverse infinite}
 
+.r_2_270 {animation: rotate_2_270 4s linear infinite}
+.r_2_270- {animation: rotate_2_270  4s linear reverse infinite}
 /* .r4_2_0 {animation: rotate_4_2_0 8s linear  infinite} */
 
 @keyframes rotate_1 {
@@ -94,8 +98,6 @@
     transform: rotate(-90deg)}
   /* 0%{
     transform: rotate(0deg)} */
-
-
     95%{
       transform: rotate(-360deg);}
 
@@ -123,6 +125,8 @@
   62.5%{ transform: rotate(180deg);}
   100%{ transform: rotate(90deg);}
 }
+
+
 @keyframes rotate_2_180 {
   0%{ transform: rotate(180deg);}
   12.5%{ transform: rotate(180deg);}
@@ -130,6 +134,10 @@
   62.5%{ transform: rotate(270deg);}
   100%{ transform: rotate(180deg);}
 }
+
+
+
+
 @keyframes rotate_2_270 {
   0%{ transform: rotate(270deg);}
   12.5%{ transform: rotate(270deg);}
