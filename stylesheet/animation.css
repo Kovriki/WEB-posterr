@@ -10,7 +10,7 @@
 .r2_0_1 {animation: rotate_2_0_1 4s linear infinite}
 .r2_0_2 {animation: rotate_2_0_2 4s linear infinite}
 .r_2_270 {animation: rotate_2_270  4s linear infinite}
-.r_2_270 {animation: rotate_2_270  4s linear reverse infinite}
+.r_2_270- {animation: rotate_2_270  4s linear reverse infinite}
 .r4_0 { animation: rotate_4 8s linear alternate-reverse infinite}
 .r4_0- { animation: rotate_4 8s linear reverse infinite}
 .r4_90 { animation: rotate_4_90 8s linear alternate-reverse infinite}
