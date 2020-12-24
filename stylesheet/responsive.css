@@ -84,7 +84,7 @@
   .restangle_under_logo { width: 33.2vw; height: 16.6vw;background: black;}
   .zigzag_block_h, .zigzag_block_horizont, .zigzag_horizont, .infor_h { width: 49.8vw; height: 33.2vw; }
   .zigzag_block, .zigzag, .infor { width: 33.2vw ; height: 49.8vw;}
-  p {font-size: 25px;}
+  p {font-size: 20px;}
 
   .text_prostranstvo { width: 50vw; height: 30vw}
   #s4_1,  #s3_1 {display: block;}
