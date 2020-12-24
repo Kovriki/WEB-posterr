@@ -103,6 +103,7 @@
   p {font-size: 25px;}
   .infor_h, .infor {padding-left: 5vw; padding-top: 10vw;}
   .text_prostranstvo { width: 100vw; height: 50vw}
+  .in_text_prostranstvo {width: 85%;}
   .shriftovih_bg, .musei_bg, .illusi_bg { padding-bottom: 1vw;}
 
 #s4_1 {display: block;}
