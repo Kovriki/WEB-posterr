@@ -25,6 +25,11 @@
 .r_2_270- {animation: rotate_2_270  4s linear reverse infinite}
 /* .r4_2_0 {animation: rotate_4_2_0 8s linear  infinite} */
 
+.quarter:hover  {
+  animation-play-state: paused;
+}
+
+
 @keyframes rotate_1 {
   0%{
     transform: rotate(0deg);}
