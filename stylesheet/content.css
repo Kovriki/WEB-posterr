@@ -19,6 +19,8 @@ p{
   /* margin-top: -20vw; */
   font-family: "RFDewiExtended-Semibold", sans-serif;
   font-size: 20pt;
+  transition: all .2s;
+
   /* transition: all 4s; */
     opacity: 0;
 }
@@ -29,6 +31,8 @@ p{
   color: black;
   width: 30vw;
   height: 20vw;
+  transition: all .2s;
+  
   font-family: "RFDewiExtended-Semibold", sans-serif;
   /* transition: all 4s; */
     opacity: 0;
@@ -191,7 +195,15 @@ transition: all 1s;
   height: 100%;
   padding-top: 10%;
   padding-left: 10%;
+  transition: all .2s;
+
 }
+.text_prostranstvo:hover .in_text_prostranstvo {
+  transform: scale(0.7);
+  transition: all 3s;
+}
+
+
 .footer{
   width: 100vw;
   height: 20vw;
@@ -252,6 +264,13 @@ transition: all 1s;
   /* background-repeat: no-repeat; */
   background-size: 70%;
 }
+
+
+
+
+
+
+
 
 /* для телефона */
 
