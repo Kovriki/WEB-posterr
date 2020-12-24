@@ -1,0 +1,93 @@
+
+/* анимация поворотов */
+.r1{animation: rotate_1 4s linear infinite;
+  }
+.r2{animation: rotate_2 4s linear infinite;
+  }
+.r3{animation: rotate_3 8s linear infinite;
+  }
+
+
+
+@keyframes rotate_1 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(90deg)}
+  25%{
+    transform: rotate(90deg)}
+  45%{
+    transform: rotate(180deg)}
+  50%{
+    transform: rotate(180deg)}
+  70%{
+    transform: rotate(270deg)}
+  75%{
+    transform: rotate(270deg)}
+  95%{
+    transform: rotate(360deg);}
+  100%{
+    transform: rotate(360deg);}
+}
+@keyframes rotate_2 {
+  0%{
+    transform: rotate(0deg);}
+  20%{
+      transform: rotate(-90deg)}
+  25%{
+    transform: rotate(-90deg)}
+  45%{
+    transform: rotate(-180deg)}
+  50%{
+    transform: rotate(-180deg)}
+  70%{
+    transform: rotate(-270deg)}
+  75%{
+    transform: rotate(-270deg)}
+  95%{
+    transform: rotate(-360deg);}
+  100%{
+    transform: rotate(-360deg);}
+}
+@keyframes rotate_3 {
+  0%{
+    transform: rotate(0deg)}
+  6%{
+      transform: rotate(-90deg)}
+  12,75%{
+    transform: rotate(-90deg)}
+  18,5%{
+    transform: rotate(-180deg)}
+  31,5%{
+    transform: rotate(-180deg)}
+  37,5%{
+    transform: rotate(-270deg)}
+  43,75%{
+    transform: rotate(-270deg)}
+  50%{
+    transform: rotate(-360deg);}
+  56,25%{
+    transform: rotate(-360deg);}
+  72,5%{
+    transform: rotate(-270deg)}
+  78,75%{
+    transform: rotate(-270deg)}
+  81,25%{
+    transform: rotate(-180deg)}
+  87,5%{
+    transform: rotate(-180deg)}
+  93,75%{
+    transform: rotate(-90deg)}
+  100%{
+    transform: rotate(-90deg)}
+  /* 0%{
+    transform: rotate(0deg)} */
+
+
+    95%{
+      transform: rotate(-360deg);}
+;}
+}
+@keyframes rot_4 {
+  
+}
