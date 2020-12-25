@@ -213,6 +213,8 @@
   81.25%{ transform: rotate(0deg);}
   100%{ transform: rotate(0deg);}
 } */
+
+
 @keyframes rotate_4_2_0 {
   0%{ transform: rotate(0deg);}
   6.25%{ transform: rotate(0deg);}
